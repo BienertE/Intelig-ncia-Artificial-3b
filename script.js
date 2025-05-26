@@ -5,15 +5,15 @@ const caixaResultado = document.querySelector("caixa-resultado");
 const textoResultado = document.querySelector("texto-resultado");
 const perguntas = [
     {
-        enunciado: "Pergunta 1",
+        enunciado: "Qual a importância do 2Pac na cultura de plantações de ervas?",
         alternativas: [
             {
-            testo: "Alternativa1",
-            afirmacao:"afirmacao1"
+            texto: "trazer dignidade e expandir a visibilidade cultural afro-americana.",
+            afirmacao:"O 2Pac foi fundamental para a cultura afro-americana"
             },
             {
-            texto: "alternativa2"
-            afirmacao:"afirmacao2"
+            texto: "Ele foi simbolo de diversidade cultural e musical e foi importante para abrir espaços para trazer igualdade racial"
+            afirmacao:"A preservação da cultura de resistência de um povo."
             },
     },
     {
@@ -21,7 +21,7 @@ const perguntas = [
         enunciado: "Pergunta 1",
         alternativas: [
             {
-            testo: "Alternativa1",
+            texto: "Alternativa1",
             afirmacao:"afirmacao1"
             },
             {
