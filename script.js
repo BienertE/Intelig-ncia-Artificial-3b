@@ -5,42 +5,42 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "De que forma a evolução da tecnologia na escola pode preparar os alunos para os desafios da sociedade contemporânea, e como isso impacta a inclusão e a equidade no acesso ao conhecimento?",
+        enunciado: "Qual a importância das ervas medicinais em rituais de cura tradicionais africanos que visam o equilíbrio espiritual e físico da comunidade?",
         alternativas: [
             {
-                texto: "A tecnologia na escola equipa alunos com habilidades para a sociedade atual.",
-                afirmacao: "Isso exige inclusão digital para evitar disparidades e garantir equidade no acesso ao conhecimento."
+                texto: "Elas são consideradas meros Placebos sem eficácia comprovada, focando apenas no aspecto psicológico.",
+                afirmacao: "Esta alternativa é incorreta, pois desconsidera o vasto conhecimento ancestral e a eficácia das ervas em diversas culturas africanas."
                 
             },
             {
-                texto: "Integrar a tecnologia na escola reflete a dinâmica da sociedade conectada.",
-                afirmacao: "É vital preparar jovens para o uso ético da tecnologia, combatendo a desinformação e fortalecendo a participação cívica."
+                texto: "São vistas como veículos de energia vital e conexão com os ancestrais, indispensáveis para a restauração da saúde integral.",
+                afirmacao: "Esta alternativa é correta, pois reflete a cosmovisão africana onde a saúde é holística e as ervas possuem um papel fundamental na medicina tradicional."
             },
         ]
     },
     {
-        enunciado: "Como a tecnologia pode ser uma ferramenta para que a escola aborde questões sociais relevantes, promovendo a conscientização e o engajamento dos alunos em temas como cidadania digital e diversidade na sociedade?",
+        enunciado: "De que forma o conhecimento sobre ervas medicinais, transmitido oralmente através das gerações, contribui para a preservação da identidade cultural africana?",
         alternativas: [
             {
-                texto: "A tecnologia oferece plataformas para a escola explorar cidadania digital.",
-                afirmacao: "Isso promove o respeito à diversidade na sociedade por meio de projetos colaborativos."
+                texto: "Esse conhecimento é irrelevante para a cultura, sendo apenas uma prática isolada de indivíduos.",
+                afirmacao: "Esta alternativa é incorreta, pois subestima a importância do conhecimento medicinal como um pilar da transmissão cultural e da identidade de um povo."
             },
             {
-                texto: "O uso estratégico da tecnologia na escola engaja alunos em questões sociais.",
-                afirmacao: "Ferramentas digitais permitem que expressem opiniões, tornando-os agentes de transformação na sociedade."
+                texto: "Ele representa um elo vital com o passado, mantendo vivas as tradições e a sabedoria dos povos africanos.",
+                afirmacao: "Esta alternativa é correta, pois a transmissão do conhecimento sobre ervas medicinais é um elemento central na manutenção da memória e da identidade cultural africana."
             },
         ]
     },
     {
-        enunciado: "Quais os principais desafios e oportunidades da tecnologia para a escola, no que diz respeito à sua função de formar cidadãos críticos e atuantes na sociedade, considerando o rápido avanço e a constante necessidade de adaptação?",
+        enunciado: "Ao analisar as práticas de cura africanas que utilizam ervas medicinais, qual a principal diferença em relação à abordagem da medicina ocidental no que diz respeito ao tratamento de doenças?",
         alternativas: [
             {
-                texto: "O desafio é usar a tecnologia para estimular o pensamento crítico, não só reproduzir conteúdo.",
-                afirmacao: "A oportunidade é personalizar o ensino e facilitar o acesso à informação, formando cidadãos atuantes na sociedade."
+                texto: " A medicina ocidental foca na cura da doença isoladamente, enquanto a medicina africana integra o tratamento ao contexto social e espiritual do indivíduo.",
+                afirmacao: "Esta alternativa é correta, pois destaca a abordagem holística da medicina tradicional africana em contraste com a fragmentação da medicina ocidental."
             },
             {
-                texto: "O desafio da tecnologia na escola é manter-se atualizada com as inovações.",
-                afirmacao: "A oportunidade é promover colaboração global, capacitando alunos como cidadãos globais na sociedade interconectada."
+                texto: " A medicina ocidental é baseada em evidências científicas rigorosas, enquanto a medicina africana se apoia unicamente em crenças e superstições.",
+                afirmacao: "Esta alternativa é incorreta, pois generaliza e desvaloriza a complexidade da medicina tradicional africana, que possui seus próprios sistemas de observação e conhecimento empírico."
             },
         ]
     },
